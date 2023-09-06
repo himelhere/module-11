@@ -242,8 +242,9 @@ ul i {
     display: flex;
     align-items: center;
     gap: 16px;
-    border-radius: 50px;
+    border-radius: 100px;
     background: #FFF;
+    border: 1.5px solid transparent;
 }
 
 .games-item>h3 {
@@ -257,14 +258,15 @@ ul i {
     padding: 10px 0px 10px 10px;
 }
 
-.games-item:hover {
-    border: 1.5px solid #F948B2;
+.games-item:hover{
 
+    border-color: #F948B2;
 }
+.games-item:hover>h3{
 
-.games-item>h3:hover {
     color: #F948B2;
 }
+
 
 /* Footer */
 
